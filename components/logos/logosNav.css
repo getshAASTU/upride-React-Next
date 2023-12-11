@@ -1,0 +1,116 @@
+.logosContainer {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.05);
+  padding: 12px 24px;
+}
+.leftLogo{
+    width: 40%;
+    gap: 30px;
+}
+.rightLogo{
+    width: 45%;
+    gap: 30px;
+}
+.logoContact {
+  display: flex;
+  width: 226px;
+  height: 14px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.logoContact p {
+  padding-left: 3px;
+  color: var(--Gray, #8a879f);
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  text-transform: uppercase;
+}
+.logoContact p span {
+  color: var(--dark);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  text-transform: uppercase;
+}
+.link {
+  color: #121511;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 0 12px;
+}
+.profileContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.profile {
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 3px 4px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+.linkContainer{
+margin: 0 12px;
+}
+.profile h4{
+    padding: 0 4px;
+}
+.profileImage {
+  border-radius: 32px;
+}
+.absolute{
+    position: absolute;
+    width: 1px;
+    top: 0;
+    right: -65px;
+    height: 100%;
+    background-color:rgba(18, 21, 17, 0.10);
+    z-index: 200;
+}
+.relative{
+    position: relative;
+}
+
+@media (max-width: 576px) {
+    /* .logosContainer{
+        flex-direction: column;
+        column-gap: 15px;
+    }
+    .leftLogo{
+        width: 100%;
+    }.rightLogo{
+        width: 100%;
+    } */
+ /* .logosContainer{
+    flex-direction: column;
+    column-gap: 15px;
+    width: 100%;
+    border: solid red 1px;
+    margin: 0;
+    padding: 0;
+ } */
+    /* .rightLogo, .leftLogo{
+        width: 100%;
+        flex-direction: column;
+        row-gap: 30px;
+        border:  solid green 1px;
+        justify-content: center;
+        align-items: self-start;
+    } */
+   /* .leftLogo{
+    display: none;
+   } */
+
+  }
+
