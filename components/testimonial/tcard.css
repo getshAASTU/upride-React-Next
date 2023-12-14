@@ -1,0 +1,57 @@
+.tCard {
+  display: flex;
+  width: 406.649px;
+  padding: 29px 48px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 19px;
+  border-radius: 26px;
+  background: #fff;
+  box-shadow: 0px 3.307px 3.318px 0px rgba(0, 0, 0, 0.02),
+    0px 6.994px 8.206px 0px rgba(0, 0, 0, 0.04),
+    0px 11.89px 16.44px 0px rgba(0, 0, 0, 0.05),
+    10px 20.718px 33.619px 0px rgba(0, 0, 0, 0.07),
+    10px 51px 94px 0px rgba(0, 0, 0, 0.11);
+}
+p {
+  color: #7a7a7a;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.64px;
+  text-transform: capitalize;
+}
+h4 {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.68px;
+  text-transform: capitalize;
+}
+.imgRating {
+  display: flex;
+  padding: 6px 21px 6px 7px;
+  align-items: center;
+  gap: 14px;
+  border-radius: 59px;
+  background: #fff;
+  box-shadow: 0px 3.307px 3.318px 0px rgba(0, 0, 0, 0.02),
+    0px 6.994px 8.206px 0px rgba(0, 0, 0, 0.04),
+    0px 11.89px 16.44px 0px rgba(0, 0, 0, 0.05),
+    10px 20.718px 33.619px 0px rgba(0, 0, 0, 0.07),
+    10px 51px 94px 0px rgba(0, 0, 0, 0.11);
+}
+.img {
+  border-radius: 50px;
+  box-shadow: 0px 3.307px 3.318px 0px rgba(0, 0, 0, 0.02),
+    0px 6.994px 8.206px 0px rgba(0, 0, 0, 0.04),
+    0px 11.89px 16.44px 0px rgba(0, 0, 0, 0.05),
+    10px 20.718px 33.619px 0px rgba(0, 0, 0, 0.07),
+    10px 51px 94px 0px rgba(0, 0, 0, 0.11);
+}

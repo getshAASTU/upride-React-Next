@@ -1,10 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  min-height: 100vh;
-  /* border: solid red 2px; */
 }
 .flexCenter{
   display: flex;
@@ -14,9 +11,9 @@
 .container{
   display: flex;
   flex-direction: column;
+  background-color: white;
   justify-content: space-between;
   align-items: center;
-  /* border: solid green 2px; */
   padding: 0 24px;
   width: 85vw;
 }

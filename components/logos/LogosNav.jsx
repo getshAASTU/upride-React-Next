@@ -8,11 +8,10 @@ const LogosNav = () => {
     <div className="">
       <div className="logosContainer">
         <div className={`leftLogo ${styles.flexCenter}`}>
-          <div className="relative">
-            <Image width={146} height={40} src="/three.png" alt="uprideLogo" />
-            {/* <div className="absolute"/> */}
+          <div className="">
+            <Image  width={146} height={40} src="/three.png" alt="uprideLogo" />
           </div>
-          <div className={`relative ${styles.flexCenter}`}>
+          <div className={`${styles.flexCenter}`}>
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +38,6 @@ const LogosNav = () => {
                 Contact us : <span>+919211420786</span>
               </p>
             </div>
-            {/* <div className="absolute"/> */}
           </div>
         </div>
         <div
@@ -75,7 +73,7 @@ const LogosNav = () => {
             </div>
             <div className={`profile ${styles.flexCenter}`}>
               <Image
-                className="profileImage"
+                className="profileImage rightLogoImg"
                 src="/two.jpeg"
                 alt="profilename"
                 height={32}

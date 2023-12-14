@@ -1,0 +1,132 @@
+.offerContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 2rem;
+  /* align-items: flex-start; */
+}
+
+.offerContainer h5 {
+  position: relative;
+  color: #f8444f;
+  text-align: start;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.underline {
+  height: 1px;
+  background-color: #f8444f;
+  width: 25px;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.offerContainer h2 {
+  color: #181818;
+  font-family: Plus Jakarta Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.offerContainer h6 {
+  color: #454545;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.07px;
+}
+.viewAll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.svg2Container {
+  position: relative;
+  width: 125.323px;
+  height: 35px;
+  padding: 0.5rem 3px;
+  /* border: solid 1px red; */
+  background-color: transparent;
+  cursor: pointer;
+}
+.view {
+  position: absolute;
+  top: -2rem;
+left: 0.8rem;
+  color: black;
+  z-index: 100;
+}
+
+.offers {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 2rem;
+}
+.offer-one {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  background: #ff5757;
+  width: 50%;
+}
+.offerView{
+  border-radius: 10px;
+  box-shadow: 0px 8px 35px 0px rgba(69, 69, 69, 0.09);
+
+}
+.offer-one h3 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.offer-one p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.09px;
+}
+.offer-one button{
+    border-radius: 20px;
+    width: 75%;
+    padding: 0.5rem 1rem;
+    background: white;
+    text-align: center;
+    color: #f8444f;
+    border: none;
+    cursor: pointer;
+}
+.empity{
+  width: 50%;
+  background-color: white;
+}
+@media (max-width:768px) {
+  .offers{
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+  .offerView{
+    width: 100%;
+  }
+}
+@media (max-width:576px) {
+  .viewAll h6{
+    display: none;
+  }
+  
+}

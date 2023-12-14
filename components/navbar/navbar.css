@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  width: 100%;
+  background: #ff5757;
+  padding: 12px 24px;
+}
+li {
+  list-style: none;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+li:hover{
+    color:#262730;
+}
+
+@media (max-width:992px) {
+    nav{
+        display: none;
+    }
+}
+
