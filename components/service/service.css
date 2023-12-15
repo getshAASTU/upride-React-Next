@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  margin-top: 1rem;
+  margin: 3rem 0;
 }
 h2 {
   color: #000;
@@ -51,8 +51,14 @@ h2 {
   font-weight: 600;
   line-height: 26px;
 }
+.booking {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap: 10%;
+  margin-top: 3rem;
+}
 .bookText {
-  color: var(--Dark-Gray, #4e4e4e);
+  color: #4e4e4e;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -78,7 +84,7 @@ h5 {
   letter-spacing: 4.48px;
 }
 
-.btn {
+.booknow .btn {
   color: #fd5444;
   border: none;
   padding: 0.5rem 1rem;
@@ -91,45 +97,137 @@ h5 {
   align-items: flex-start;
   gap: 1rem;
 }
+.bookImgContainer {
+  width: 100%;
+  height: 80vh;
+}
 .bookImg {
+  height: 80%;
+  width: 60%;
+  margin: 2rem auto;
   position: relative;
-  border: solid violet 2px;
-  /* overflow: hidden; */
-  max-width: 100%;
+
+  background-image: url("/six.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.images {
-  width: 70%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-  border-radius: 30px;
-  transform: rotate(15deg);
- margin: 3rem auto;
-}
-.booking {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  gap: 3rem;
-  margin-top: 3rem;
-}
-.svg-one {
+
+.bookImg .book_svg_one {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  left: 4rem;
-  bottom: 30rem;
-  width: 80px;
-  height: 80px;
-  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  border-radius: 5px;
   background: #ffdc6b;
-  text-align: center;
+}
+.circleSvg_Container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.book_svg_dot {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+.book_red_dot {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+}
+.verified_Id {
+  position: absolute;
+  bottom: 2rem;
+  padding: 1rem;
+  left: -6.5rem;
+  border-radius: 10px;
+  width: 60%;
+  background: #fff;
+  box-shadow: 5px 8px 30px 0px rgba(0, 0, 0, 0.1);
+}
+.verified_Id_sub {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 0.2rem;
+}
+.verifiedText {
+  color: #4e4e4e;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .websvg {
   display: block;
   position: absolute;
-
+  top: 0.2rem;
+  left: 0.2rem;
+  z-index: 20;
+}
+.whyUpride {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+.whyUpride h2 {
+  color: #000;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 46px;
+}
+.whyUpride span {
+  font-weight: 700;
+}
+.uprideRate {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+.singleUprideRate {
+  text-align: center;
+}
+.singleUprideRate h1 {
+  color: #000;
+  font-family: Plus Jakarta Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 58px;
+}
+.singleUprideRate h6 {
+  color: #4e4e4e;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.singleUprideRate h1 span {
+  background-color: #fd5444;
+  color: white;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+#rating{
+  background-color: #10A5F5;
+}
+#minute{
+  background-color: #f5de7a;
 }
 
 @media (max-width: 576px) {
@@ -137,22 +235,36 @@ h5 {
     display: grid;
     grid-template-columns: 200px;
   }
+  .uprideRate{
+    display: grid;
+    grid-template-columns: 2fr;
+    justify-content: center;
+  }
+  .singleUprideRate{
+    width: 100%;
+  }
+  .singleUprideRate h1{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+  }
 }
-@media (min-width: 576) and (max-width: 768) {
+@media (min-width: 576px) and (max-width: 768px) {
   .serviceSvg {
     display: grid;
     grid-template-columns: 200px 200px;
+  }
+  .uprideRate{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 2rem;
   }
 }
 @media (max-width: 992px) {
   .booking {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr;
     gap: 2rem;
-  }
-  .booknow,
-  .bookImg {
-    width: 100%;
-    height: auto;
   }
 }

@@ -1,22 +1,31 @@
 // import Image from "next/image";
 import styles from "./page.module.css";
-import { LogosNav, Navbar, Header, Footer, Card,Tcard, LearnCard, Services, DrivingSchools, Offers } from "@/components";
+import {
+  LogosNav,
+  Navbar,
+  Header,
+  Footer,
+  Services,
+  DrivingSchools,
+  Offers,
+  LearnPro,
+  Testimonies,
+} from "@/components";
 export default function Home() {
   return (
     <main className={styles.main}>
       <div style={{ color: "black", width: "100%" }}>
-        {/* <LogosNav /> */}
-        {/* <Navbar /> */}
+        <LogosNav />
+        <Navbar />
       </div>
       <div className={styles.container}>
-        {/* <Header /> */}
+        <Header />
+        <Services />
+        <DrivingSchools />
+        <Offers />
+        <Testimonies />
+        <LearnPro />
         {/* <Footer /> */}
-        {/* <Card/> */}
-        {/* <Tcard/> */}
-        {/* <LearnCard/> */}
-        {/* <Services/> */}
-        {/* <DrivingSchools/> */}
-        {/* <Offers/> */}
       </div>
     </main>
   );

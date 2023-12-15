@@ -39,7 +39,7 @@ const DrivingSchools = () => {
               <path
                 d="M1.5 17.5C1.5 8.11116 9.11116 0.5 18.5 0.5H83.5C92.8888 0.5 100.5 8.11116 100.5 17.5C100.5 26.8888 92.8888 34.5 83.5 34.5H18.5C9.11116 34.5 1.5 26.8888 1.5 17.5Z"
                 stroke="black"
-                stroke-opacity="0.2"
+                strokeOpacity="0.2"
               />
             </svg>
             <h5 className="view">View All</h5>

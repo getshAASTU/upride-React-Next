@@ -125,8 +125,8 @@ const LogosNav = () => {
                       gradientUnits="userSpaceOnUse"
                       gradientTransform="translate(4.60323 4.21155) rotate(-45) scale(11.2508)"
                     >
-                      <stop offset="0.3533" stop-color="#FFCA28" />
-                      <stop offset="0.8723" stop-color="#FFB300" />
+                      <stop offset="0.3533" stopColor="#FFCA28" />
+                      <stop offset="0.8723" stopColor="#FFB300" />
                     </radialGradient>
                   </defs>
                 </svg>

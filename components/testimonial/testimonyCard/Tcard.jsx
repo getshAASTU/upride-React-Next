@@ -24,8 +24,8 @@ const Tcard = () => {
             y2="-10.8449"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF006E" />
-            <stop offset="1" stop-color="#FFBE0B" />
+            <stop stopColor="#FF006E" />
+            <stop offset="1" stopColor="#FFBE0B" />
           </linearGradient>
         </defs>
       </svg>
