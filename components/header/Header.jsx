@@ -123,8 +123,8 @@ const Header = () => {
                   <Image
                     src="/one.png"
                     alt="instructor"
-                    width={40}
-                    height={40}
+                    width={44}
+                    height={43}
                   />
                 </div>
                 <div className="instructorText">
@@ -132,7 +132,7 @@ const Header = () => {
                   <p>Online</p>
                 </div>
               </div>
-              <h3>Hi, I am your instructor</h3>
+              <h3 className="instructorHeader">Hi, I am your instructor</h3>
             </div>
 
             <div className="svg_container">

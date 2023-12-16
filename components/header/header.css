@@ -10,11 +10,9 @@ header {
   column-gap: 5%;
   margin-top: 2rem;
   align-items: center;
-  /* border: solid red 1px; */
   width: 100%;
 }
 .rightheader_container {
-  /* border: solid greenyellow 2px; */
   width: 100%;
   height: 80vh;
 }
@@ -23,7 +21,6 @@ header {
   height: 80%;
   position: relative;
   margin: 3rem;
-  /* border: solid pink 1px; */
 }
 
 .left-header {
@@ -31,7 +28,6 @@ header {
   flex-direction: column;
   row-gap: 2rem;
   align-items: flex-start;
-  /* border: solid blue 2px; */
 }
 .left-header h3 {
   text-align: start;
@@ -68,7 +64,6 @@ header {
   height: 35px;
   border: none;
   background-color: transparent;
-  /* margin: 2rem 4px; */
 }
 
 .btn_svgContainer h5 {
@@ -144,13 +139,13 @@ input {
   left: -3rem;
   z-index: 100;
 }
-.instructor h3 {
+.instructor .instructorHeader {
   color: #4e4e4e;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
+  font-weight: 700;
+  line-height: 20px;
 }
 .instructorImgContainer {
   display: flex;
@@ -178,7 +173,6 @@ input {
   line-height: 24px;
 }
 .img_two_container {
-  /* border: solid 2px yellow; */
   position: absolute;
   left: 1rem;
   bottom: 1rem;
@@ -187,7 +181,6 @@ input {
 }
 
 .img_one_container {
-  /* border: solid red 2px; */
   position: absolute;
   top: 0rem;
   right: 1rem;
@@ -258,15 +251,13 @@ input {
   align-items: center;
   width: 80%;
   height: 15vh;
-  margin: 2rem 1rem;
+  margin: 2rem 4rem;
   padding: 0 1rem;
-  /* border: solid red 1px; */
 }
 .customerItem {
   display: flex;
   gap: 4rem;
   position: relative;
-  /* justify-content: space-between; */
   height: 80%;
   padding: 1.1rem 1rem;
   align-items: center;
@@ -302,7 +293,7 @@ input {
   .customer{
     display: grid;
     grid-template-columns: 2fr;
-    height: 20vh;
+    height: 70vh;
     margin-top: 1rem;
   }
   .customerItem{

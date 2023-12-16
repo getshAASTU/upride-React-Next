@@ -10,6 +10,7 @@ import {
   Offers,
   LearnPro,
   Testimonies,
+  Upride,
 } from "@/components";
 export default function Home() {
   return (
@@ -23,9 +24,10 @@ export default function Home() {
         <Services />
         <DrivingSchools />
         <Offers />
-        <Testimonies />
         <LearnPro />
-        {/* <Footer /> */}
+        <Testimonies />
+        <Upride/>
+        <Footer />
       </div>
     </main>
   );

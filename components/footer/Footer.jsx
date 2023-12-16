@@ -6,11 +6,15 @@ const Footer = () => {
   return (
     <footer>
       <div className="leftFooter">
-        <Image width={70} height={25} src="/three.png" alt="logo" />
-        <p>
-          Sometimes features require a short description. This can be detailed
-          description or just a short text.
-        </p>
+        <div>
+          <Image width={146} height={40} src="/three.png" alt="logo" />
+        </div>
+        <div>
+          <p className="footerText">
+            Sometimes features require a short description. This can be detailed
+            description or just a short text.
+          </p>
+        </div>
         <div>
           <h4>Download App</h4>
           <p>Available On</p>
@@ -99,10 +103,21 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div>
-        {/* {footerLinks.map((item, index) => {
-          <h3 style={{color:'black'}}>{Object.keys(item)}</h3>;
-        })} */}
+      <div className="rightFooter">
+        {footerLinks.map((obj) => (
+          <div>
+            <div key={Object.keys(obj)[0]}>
+              <h4>{Object.keys(obj)[0]}</h4>
+              <ul>
+                {obj[Object.keys(obj)[0]].map((item) => (
+                  <li className="footerList" key={item}>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        ))}
       </div>
     </footer>
   );

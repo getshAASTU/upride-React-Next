@@ -1,0 +1,124 @@
+.recomend_container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.btnsContainer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  gap: 25px;
+}
+.recomend_container h2 {
+  color: #232323;
+  font-family: Plus Jakarta Sans;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 1.76px;
+  text-transform: capitalize;
+}
+ .recomend_container .container h4 {
+  color: #696969;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.8px;
+  text-transform: capitalize;
+}
+.svgContainer h5 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  z-index: 1000;
+  position: absolute;
+  top: 0.8rem;
+  left: 3rem;
+}
+.svgContainer,
+.svg2Container {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+ 
+}
+.viewBtn {
+  color: #000;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  z-index: 1000;
+  position: absolute;
+  top: -0.4rem;
+  right: 1rem;
+}
+.svg2Container h5{
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    z-index: 1000;
+    position: absolute;
+    top: 1.4rem;
+    right: 1.3rem;
+}
+.cardContainer {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  gap: 2rem;
+}
+
+@media (max-width: 576px) {
+  .recomend_container{
+    align-items: center;
+  }
+  .cardContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .titleContainer h4 {
+    display: none;
+  }
+  .cardsContainer {
+    margin-top: 3rem;
+  }
+  .btnsContainer {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .cardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: center; */
+    width: 90%;
+    align-items: center;
+  }
+  .cardsContainer {
+    margin-top: 3rem;
+  }
+}

@@ -1,6 +1,5 @@
 import React from "react";
 import "./service.css";
-import Image from "next/image";
 
 const Services = () => {
   return (
@@ -52,7 +51,6 @@ const Services = () => {
             </svg>
             <h5 className="svgText">Driving Schools</h5>
           </div>
-
           <div className="svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"

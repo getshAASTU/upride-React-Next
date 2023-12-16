@@ -3,19 +3,18 @@
   width: 100%;
   flex-direction: column;
   gap: 2rem;
-  margin-top: 2rem;
-  /* align-items: flex-start; */
+  margin-top: 3rem;
+  align-items: flex-start;
 }
 
-.offerContainer h5 {
-  position: relative;
+
+.svg_Container{
+  background-color: #FFF1F1;
   color: #f8444f;
-  text-align: start;
-  font-family: Poppins;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  text-align: center;
 }
 .underline {
   height: 1px;
@@ -43,10 +42,16 @@
   line-height: 24px;
   letter-spacing: 0.07px;
 }
+.svg_container{
+  background-color: transparent;
+  border: none;
+}
 .viewAll {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: transparent;
+  width: 100%;
 }
 
 .svg2Container {
@@ -58,18 +63,19 @@
   background-color: transparent;
   cursor: pointer;
 }
-.view {
+/* .view {
   position: absolute;
   top: -2rem;
 left: 0.8rem;
   color: black;
   z-index: 100;
-}
+} */
 
 .offers {
   display: grid;
   grid-template-columns: 2fr 2fr;
   gap: 2rem;
+  width: 100%;
 }
 .offer-one {
   display: flex;

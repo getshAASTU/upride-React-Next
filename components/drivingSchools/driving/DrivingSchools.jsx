@@ -1,10 +1,10 @@
 import React from "react";
 import "./driving.css";
 import { drivingSchools } from "@/constants/datas";
-import { Card } from "..";
+import { Card } from "../..";
 const DrivingSchools = () => {
   return (
-    <div className="container">
+    <div className="recomend_container">
       <h2>Recommended Driving Schools</h2>
       <div className="titleContainer">
         <h4>
@@ -28,7 +28,7 @@ const DrivingSchools = () => {
             </svg>
             <h5>Near Me</h5>
           </button>
-          <button className="svg2Container">
+          <button className="svg2Container viewBtn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="110"
@@ -42,7 +42,7 @@ const DrivingSchools = () => {
                 strokeOpacity="0.2"
               />
             </svg>
-            <h5 className="view">View All</h5>
+            <h5 className="">View All</h5>
           </button>
         </div>
       </div>

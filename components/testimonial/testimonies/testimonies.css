@@ -33,6 +33,12 @@
   align-items: center;
   justify-content: center;
 }
+.testimony_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 @media (max-width: 576px) {
   .testimonyContainer {
     display: grid;
@@ -40,7 +46,7 @@
     align-items: center;
   }
 }
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 992px) {
   .testimonyContainer {
     display: grid;
     grid-template-columns: 2fr 2fr;
