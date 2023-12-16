@@ -2,11 +2,25 @@
   display: flex;
   width: 100%;
   flex-direction: column;
+  align-items: flex-start;
   gap: 2rem;
-  margin-top: 3rem;
+  margin-top: 5rem;
   align-items: flex-start;
 }
+.offerTitle{
+  color: #ff5757;
+  font-weight: 700;
+  position: relative;
+}
 
+.underline {
+  height: 3px;
+  background-color: #f8444f;
+  width: 45px;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
 
 .svg_Container{
   background-color: #FFF1F1;
@@ -15,14 +29,6 @@
   padding: 8px 15px;
   border-radius: 20px;
   text-align: center;
-}
-.underline {
-  height: 1px;
-  background-color: #f8444f;
-  width: 25px;
-  position: absolute;
-  top: 2rem;
-  left: 2rem;
 }
 
 .offerContainer h2 {
