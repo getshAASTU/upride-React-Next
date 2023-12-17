@@ -10,6 +10,7 @@ const Card = ({name,location,rating,price,img}) => {
       <div className="rating-container">
         <div className="rating">
           <svg
+          className="star"
             xmlns="http://www.w3.org/2000/svg"
             width="20"
             height="20"

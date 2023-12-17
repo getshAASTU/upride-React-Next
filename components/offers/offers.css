@@ -69,13 +69,6 @@
   background-color: transparent;
   cursor: pointer;
 }
-/* .view {
-  position: absolute;
-  top: -2rem;
-left: 0.8rem;
-  color: black;
-  z-index: 100;
-} */
 
 .offers {
   display: grid;
@@ -88,12 +81,14 @@ left: 0.8rem;
   flex-direction: column;
   align-items: flex-start;
   gap: 2rem;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
   padding: 1rem 2rem;
   background: #ff5757;
   width: 50%;
 }
 .offerView{
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 0px 8px 35px 0px rgba(69, 69, 69, 0.09);
 
 }
@@ -140,6 +135,19 @@ left: 0.8rem;
 @media (max-width:576px) {
   .viewAll h6{
     display: none;
+  }
+  .offerContainer h2{
+    font-size: 36px;
+    font-weight: 500;
+
+  }
+  .offer-one h3{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .offer-one button{
+    width: 80%;
+    padding: 0.3rem 0.8rem;
   }
   
 }

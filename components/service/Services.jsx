@@ -699,8 +699,8 @@ const Services = () => {
                 <svg
                   className="circle_Svg"
                   xmlns="http://www.w3.org/2000/svg"
-                  width="139"
-                  height="139"
+                  width="109"
+                  height="109"
                   viewBox="0 0 139 139"
                   fill="none"
                 >

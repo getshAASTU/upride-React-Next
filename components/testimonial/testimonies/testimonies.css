@@ -40,6 +40,9 @@
   width: 100%;
 }
 @media (max-width: 576px) {
+  .testimonies{
+    width: 95%;
+  }
   .testimonyContainer {
     display: grid;
     grid-template-columns: 2fr;
@@ -48,10 +51,10 @@
   .testimonyTitle{
     color: #232323;
     font-family: Plus Jakarta Sans;
-    font-size: 36px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 120%;
+    line-height: 100%;
     letter-spacing: 1.6px;
     text-transform: capitalize;
   }

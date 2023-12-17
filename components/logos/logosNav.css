@@ -1,3 +1,104 @@
+.collapsed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 10000;
+}
+.closed{
+  display: none;
+}
+.closeHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 2rem;
+}
+.collapse_list_items{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  display:block;
+  padding: 1rem 2rem;
+
+}
+.collapse_list_items ul{
+  list-style: none;
+}
+.open{
+  display: block;
+}
+.closeBtn{
+  cursor: pointer;
+}
+
+.collapse_list_items ul li{
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: #262730 solid 1px;
+  margin-top: 1rem;
+  text-align: center;
+  cursor: pointer;
+  padding: 1rem 0;
+
+}
+.collapse_list_items ul li:hover{
+  color: #fd5444;
+}
+.bar_icon{
+  cursor: pointer;
+}
+@media (max-width:576px) {
+  .rightLogo, .hide{
+    display: none;
+  }
+  /* .bar_icon{
+    display: block;
+  } */
+}
+
+@media (min-width: 576px) {
+  /* .collapsed{
+    display: none;
+  } */
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .logosContainer {
   display: grid;
   grid-template-columns: auto auto;
@@ -68,24 +169,43 @@
 .profileImage {
   border-radius: 32px;
 }
-/* .absolute {
-  position: absolute;
-  width: 1px;
-  top: 0;
-  right: -65px;
-  height: 100%;
-  background-color: rgba(18, 21, 17, 0.1);
-  z-index: 200;
-} */
-/* .relative {
-  position: relative;
-} */
+@media (max-width:768px) {
+  .logoContact p{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 50px;
+  }
+  .logosContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  .logoContact p span{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 50px;
+  }
+  .upRideLogo{
+    height: 25px;
+    width: 120px;
+  }
+.hide, .rightLogo{
+  display: none;
+}
+}
+
+@media (min-width:768px) {
+  .bar_icon{
+    display: none;
+  }
+}
 
 @media (max-width: 992px) {
-  .logosContainer {
+  /* .logosContainer {
     grid-template-columns: auto;
     row-gap: 20px;
-  }
+  } */
   .profile h4 {
     font-size: 10px;
   }
@@ -94,16 +214,5 @@
     height: 20px !important;
   }
 
-  /* .rightLogo, .leftLogo{
-        width: 100%;
-        flex-direction: column;
-        row-gap: 30px;
-        border:  solid green 1px;
-        justify-content: center;
-        align-items: self-start;
-    }  */
 
-  /* .leftLogo{
-    display: none;
-   }  */
 }

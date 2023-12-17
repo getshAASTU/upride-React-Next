@@ -34,19 +34,17 @@ header {
   margin: 0;
   padding: 0;
 }
-.span0 {
+.span0{
+  font-weight: 500;
+}
+.span4{
+  font-weight: 700;
+}
+.span0, .span4{
   color: #171151;
   font-size: 50px;
   font-style: normal;
   font-weight: 500;
-  line-height: 65px;
-  letter-spacing: 1.65px;
-}
-.span4 {
-  color: #171151;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 65px;
   letter-spacing: 1.65px;
 }
@@ -261,6 +259,7 @@ input {
   height: 80%;
   padding: 1.1rem 1rem;
   align-items: center;
+  justify-content: center;
   border-radius: 10px;
   background: #fff;
   box-shadow: 5px 8px 30px 0px rgba(0, 0, 0, 0.1);
@@ -278,28 +277,60 @@ input {
   left: 1rem;
   top: 0.5rem;
 }
-.customerSvg_two{
+.customerSvg_two {
   position: absolute;
   left: 1.3rem;
   top: 0.9rem;
 }
-.customerSvg_two_two{
+.customerSvg_two_two {
   position: absolute;
   left: 1.7rem;
   top: 1.4rem;
 }
 
 @media (max-width: 576px) {
-  .customer{
+  .customer {
     display: grid;
     grid-template-columns: 2fr;
     height: 70vh;
     margin-top: 1rem;
   }
-  .customerItem{
+  .customerItem {
     width: 100%;
     height: 100%;
   }
+  .left-header .text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .left-header h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 1.6px;
+  }
+
+  .span-1, .span-2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 1.6px;
+  }
+  .span0{
+    font-weight: 400;
+  }
+  .span4{
+    font-weight: 600;
+  }
+  .span0, .span4{
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: 1.6px;
+  }
+
 }
 
 @media (max-width: 992px) {
